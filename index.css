@@ -52,11 +52,11 @@ body {
   list-style: none;
   margin: 0;
   padding: 0;
-  background-color: black;
+  background-color: #d49950;
 }
 .list ul li {
   font-size: 30px;
-  background-color: black;
+  background-color: #d49950;
   margin: 0px;
   width: 100%;
   text-align: left;
@@ -66,7 +66,7 @@ body {
   text-decoration: none;
 }
 .list ul li:hover {
-  background-color: red;
+  background-color: #d46450;
 }
 aside {
   border: 1px solid black;
