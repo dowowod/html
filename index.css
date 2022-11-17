@@ -48,11 +48,15 @@ body {
 .item ul li:hover {
   text-decoration: underline;
 }
+.list {
+  height: 100%;
+}
 .list ul {
   list-style: none;
   margin: 0;
   padding: 0;
   background-color: rgb(17, 153, 158);
+  height: 100%;
 }
 .list ul li {
   font-size: 30px;
@@ -60,10 +64,12 @@ body {
   margin: 0px;
   width: 100%;
   text-align: left;
+  margin-bottom: 10px;
 }
 .list ul li a {
-  color: rgb(64, 81, 78);
+  color: white;
   text-decoration: none;
+  font-weight: bold;
 }
 .list ul li:hover {
   background-color: rgb(48, 227, 202);
